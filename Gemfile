@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-
+ruby '2.3.4'
+# See https://devcenter.heroku.com/articles/ruby-versions for more information.
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -15,6 +16,9 @@ gem 'coffee-rails', '~> 4.1.0'
 
 #bootstrap
 gem 'bootstrap-sass', '~> 3.3.7'
+
+gem 'devise'
+gem 'devise-i18n'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
